@@ -66,14 +66,6 @@
 
 ---
 
-### 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CodingNoob84&show_icons=true&theme=radical" alt="Karthik's GitHub Stats" />
-</p>
-
----
-
 ### 📫 Let’s Connect
 
 - 📧 **Email**: karthithelearner@gmail.com
