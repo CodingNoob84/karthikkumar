@@ -54,23 +54,20 @@ export const TechnologiesSection = () => {
   const cardVariants: Variants = {
     hidden: {
       opacity: 0,
-      y: 50,
-      scale: 0.9,
+      scale: 1.2, // start slightly zoomed in
     },
     visible: (i: number) => ({
       opacity: 1,
-      y: 0,
       scale: 1,
       transition: {
-        delay: i * 0.25, // delay each card
-        duration: 0.5,
+        delay: i * 0.3,
+        duration: 0.9,
         ease: "easeOut",
       },
     }),
     exit: {
       opacity: 0,
-      y: 20,
-      scale: 0.9,
+      scale: 1.2,
       transition: { duration: 0.2 },
     },
   };
@@ -159,7 +156,7 @@ export const TechnologiesSection = () => {
               layout
               whileHover={{
                 scale: 1.05,
-                rotateY: 5,
+                rotateY: 3,
                 transition: { duration: 0.2 },
               }}
               whileTap={{ scale: 0.95 }}

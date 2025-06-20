@@ -1,10 +1,8 @@
+"use client";
 import { ProjectDetailClientPage } from "@/components/projects/project-detail-page";
+import { useParams } from "next/navigation";
 
-export default async function ProjectDetailPage({
-  params,
-}: {
-  params: Promise<{ id: string }>;
-}) {
-  const { id } = await params;
-  return <ProjectDetailClientPage titleUrl={id as string} />;
+export default function ProjectDetailPage() {
+  const params = useParams<{ id: string }>();
+  return <ProjectDetailClientPage titleUrl={params.id} />;
 }

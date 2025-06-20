@@ -11,7 +11,7 @@ export const AllProjects = [
     titleUrl: "four-horsemen-fantasy-league",
     description:
       "A real-time fantasy cricket platform where users create virtual teams and compete based on live IPL match performances. Features player stats, leaderboards, and live scoring updates.",
-    images: getImages("four-horsemen", 8),
+    images: getImages("four-horsemen", 12),
     tags: [
       "Next.js",
       "TypeScript",
@@ -61,7 +61,7 @@ export const AllProjects = [
     titleUrl: "movie-trakt",
     description:
       "A personal watchlist tracker that maintains your viewing history and lets you share real-time activity with friends. Discover what friends are watching and compare your watch histories.",
-    images: getImages("movie-trakt", 8),
+    images: getImages("movie-trakt", 7),
     tags: ["Next.js", "TailwindCSS", "Neon Db", "TMDB API"],
     features: [
       "Personal movie and TV watchlist tracking",

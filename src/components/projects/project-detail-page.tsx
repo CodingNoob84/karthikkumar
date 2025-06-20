@@ -257,9 +257,9 @@ export const ProjectDetailClientPage = ({ titleUrl }: { titleUrl: string }) => {
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <Button
               asChild
-              variant="outline"
+              variant="secondary"
               size="lg"
-              className="border-slate-600 text-white hover:bg-slate-800"
+              className="bg-slate-700 text-white hover:bg-slate-600"
             >
               <Link href={`${project.github}`}>
                 <Github className="mr-2 h-4 w-4" />

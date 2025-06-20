@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 
 import Link from "next/link";
 import { ProjectsList } from "@/components/projects/projects-list";
+import { MoreProjects } from "@/components/projects/more-projects";
 
 export default function ProjectsPage() {
   return (
@@ -20,6 +21,7 @@ export default function ProjectsPage() {
       {/* Projects Grid */}
       <ProjectsList />
 
+      <MoreProjects />
       {/* Call to Action */}
       <div className="text-center mt-16">
         <div className="bg-slate-900 dark:bg-slate-800 rounded-2xl p-8">
