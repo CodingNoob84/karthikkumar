@@ -30,71 +30,62 @@ export const PersonalInfo = {
 
 export const experience = [
   {
-    title: "Senior Full Stack Developer",
-    company: "TechCorp Solutions",
-    period: "2022 - Present",
-    location: "San Francisco, CA",
-    description:
-      "Leading development of enterprise web applications using React, Node.js, and cloud technologies. Managing a team of 5 developers and architecting scalable solutions.",
-    achievements: [
-      "Increased application performance by 40%",
-      "Led migration to microservices architecture",
-      "Mentored 3 junior developers",
-    ],
-  },
-  {
     title: "Full Stack Developer",
-    company: "StartupXYZ",
-    period: "2020 - 2022",
-    location: "San Francisco, CA",
+    company: "Sulekha.com New Media Private Limited",
+    period: "February 2022 - Present",
+    location: "Chennai, India",
     description:
-      "Developed and maintained multiple web applications from concept to deployment. Worked closely with design and product teams to deliver user-centric solutions.",
+      "Contributed to the end-to-end development of an event ticket booking platform, working across both frontend and backend using .NET, jQuery, React, Node.js, and Next.js. Built RESTful APIs and dashboards to help event organizers manage listings, track ticket sales, and monitor activity. Ensured seamless operations with responsive UI, secure payment integration, and efficient backend workflows.",
+
     achievements: [
-      "Built 5+ production applications",
-      "Implemented CI/CD pipelines",
-      "Reduced deployment time by 60%",
+      "Built scalable ticket booking workflows from scratch",
+      "Enhanced platform usability and admin insights via dynamic dashboards",
+      "Ensured secure transactions and high performance across modules",
     ],
+    website: "https://www.sulekha.com/",
   },
   {
-    title: "Frontend Developer",
-    company: "Digital Agency Pro",
-    period: "2018 - 2020",
-    location: "Los Angeles, CA",
+    title: "Intern – Research Assistant",
+    company: "Fraunhofer Institute for Machine Tools and Forming Technology (IWU)",
+    period: "April 2019 - March 2020",
+    location: "Chemnitz, Germany",
     description:
-      "Specialized in creating responsive, interactive web interfaces for various clients. Collaborated with designers to bring creative visions to life.",
+      "Worked on automating post-processing tasks for FEM-based welding simulations using LS-DYNA. Created C++ scripts to generate detailed analysis reports, extract simulation results, and enhance the overall efficiency of mechanical simulation workflows.",
+
     achievements: [
-      "Delivered 20+ client projects",
-      "Improved website loading speed by 50%",
-      "Established component library",
+      "Automated LS-DYNA result extraction via C++ scripting",
+      "Improved accuracy and speed of simulation post-processing",
+      "Supported master's thesis focused on computational mechanics",
     ],
+    website: "https://www.iwu.fraunhofer.de/en.html",
   },
 ];
-
+ 
+ 
 export const education = [
   {
-    degree: "Master of Science in Computer Science",
-    school: "Stanford University",
-    period: "2016 - 2018",
-    location: "Stanford, CA",
-    gpa: "3.8/4.0",
-    focus: "Software Engineering & Machine Learning",
+    degree: "Master of Science in Computational Mechanics",
+    school: "University of Duisburg-Essen",
+    period: "October 2015 - April 2020",
+    location: "Duisburg, Germany",
+    gpa: "7.0/10",
+    focus: "Numerical Methods, Programming languages, Structure Analysis",
     achievements: [
-      "Dean's List for 3 consecutive semesters",
-      "Research in AI and Natural Language Processing",
-      "Published 2 papers in IEEE conferences",
+      "Top grade in Engineering Mathematics",
+      "Developed C++ scripts to automate simulations for master's thesis",
     ],
   },
   {
-    degree: "Bachelor of Science in Computer Engineering",
-    school: "University of California, Berkeley",
-    period: "2012 - 2016",
-    location: "Berkeley, CA",
-    gpa: "3.7/4.0",
-    focus: "Software Development & Systems Design",
+    degree: "Bachelor of Engineering in Mechanical Engineering",
+    school: "T.J.S Engineering College",
+    period: "June 2010 - April 2014",
+    location: "Chennai, India",
+    gpa: "8.7/10",
+    focus: "Mechanical Design & Thermodynamics",
     achievements: [
-      "Magna Cum Laude graduate",
-      "President of Computer Science Club",
-      "Winner of Annual Hackathon 2015",
+      "College topper with 8.7 CGPA",
+      "Led final-year project on Walky Bike",
+      "President of annual college symposium",
     ],
   },
 ];
