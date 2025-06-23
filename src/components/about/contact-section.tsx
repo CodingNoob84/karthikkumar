@@ -55,7 +55,7 @@ export const ContactSection = () => {
             asChild
             variant="outline"
             size="lg"
-            className="border-slate-600 text-white hover:bg-slate-800"
+            className="border-slate-600 bg-slate-500 dark:bg-slate-600 text-black dark:text-white hover:bg-slate-800"
           >
             <Link href="/projects">
               <Code2 className="mr-2 h-4 w-4" />

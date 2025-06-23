@@ -22,10 +22,11 @@ export const PersonalInfo = {
   dateOfBirth: "April 8th 1992",
   marriageStatus: "Married",
   aboutme:
-    "I'm a passionate full-stack developer with over 6 years of experience in creating innovative digital solutions. My journey in technology began during my college years and has evolved into a career focused on building scalable, user-centric applications. My approach to development combines technical expertise with creative problem-solving, always keeping the end user's experience at the forefront of every project.",
+    "I'm a passionate Full Stack Developer with over three years of experience crafting innovative digital solutions. What began as a curiosity during my college years has grown into a rewarding career centered on building scalable, user-focused applications. I blend technical proficiency with creative problem-solving, ensuring each project delivers a seamless and impactful user experience. With a strong commitment to quality and continuous improvement, I strive to develop solutions that are not only functional but also intuitive and forward-thinking.",
   github: "https://github.com/CodingNoob84",
   linkedin: "https://in.linkedin.com/",
   twitter: "https://x.com/",
+  resumelink: "file/resume.pdf",
 };
 
 export const experience = [
@@ -46,7 +47,8 @@ export const experience = [
   },
   {
     title: "Intern – Research Assistant",
-    company: "Fraunhofer Institute for Machine Tools and Forming Technology (IWU)",
+    company:
+      "Fraunhofer Institute for Machine Tools and Forming Technology (IWU)",
     period: "April 2019 - March 2020",
     location: "Chemnitz, Germany",
     description:
@@ -60,8 +62,7 @@ export const experience = [
     website: "https://www.iwu.fraunhofer.de/en.html",
   },
 ];
- 
- 
+
 export const education = [
   {
     degree: "Master of Science in Computational Mechanics",
@@ -94,49 +95,56 @@ export const hobbies = [
   {
     name: "Cricket",
     icon: Trophy,
-    description: "Playing cricket since childhood, weekend league player",
+    description:
+      "Playing cricket whenever time allows; it's my favorite way to unwind on weekends.",
     color: "bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300",
   },
   {
     name: "Binge Watching",
     icon: Tv,
-    description: "Love exploring new series and documentaries",
+    description:
+      "Movie freak and series addict — I love diving into different genres and storylines.",
     color: "bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300",
   },
   {
-    name: "Anime Lover",
-    icon: Gamepad2,
-    description: "Passionate about anime series and manga",
+    name: "Cooking",
+    icon: Gamepad2, // Consider replacing with a cooking/chef icon if available
+    description:
+      "Enjoy experimenting in the kitchen — I can cook dishes from 10+ cuisines.",
     color: "bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300",
   },
   {
-    name: "Photography",
+    name: "Traveling",
     icon: Camera,
-    description: "Capturing moments and landscapes during travels",
+    description:
+      "Have visited 5 countries; love capturing moments and exploring new cultures.",
     color: "bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300",
   },
-
   {
     name: "Reading",
     icon: Book,
-    description: "Sci-fi novels and tech books are my favorites",
+    description:
+      "Enjoy reading occasionally — mostly non-fiction, tech, and inspirational reads.",
     color: "bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300",
   },
   {
     name: "Music",
     icon: Music,
-    description: "Playing guitar and discovering new artists",
+    description:
+      "Introvert at heart who finds peace in the music of A.R. Rahman and Ilaiyaraaja.",
     color: "bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300",
   },
 ];
 
 export const funFacts = [
-  "🏆 Won 3 hackathons in college",
-  "🌍 Visited 5+ countries",
-  "📚 Read 5+ books last year",
-  "🎮 Completed 20+ video games",
-  "🏃‍♂️ Play Cricket every weekend",
-  "🍜 Can cook 10+ cuisines",
+  "🎨 Won a drawing competition during school days",
+  "🏏 Play cricket whenever I get the time",
+  "📖 Enjoy reading books occasionally",
+  "🍳 Love cooking and experimenting with different cuisines",
+  "🌍 Have traveled to 5 countries",
+  "🎧 Introvert who finds joy in listening to both A.R. Rahman and Ilaiyaraaja classics",
+  "🎬 Movie freak who loves exploring all genres",
+  "📺 Binge-watch series whenever time allows",
 ];
 
 export const NAME = PersonalInfo.name;

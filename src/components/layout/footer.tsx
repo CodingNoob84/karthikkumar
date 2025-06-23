@@ -1,11 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
-
-import { Download, Github, Mail } from "lucide-react";
-
 import { Button } from "../ui/button";
-import { handleResumeDownload } from "@/lib/utils";
-import { NAME } from "@/data/contact-info";
+import { NAME, socialLinks } from "@/data/contact-info";
 
 export const Footer = () => {
   return (
@@ -32,34 +28,29 @@ export const Footer = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.3 }}
           >
-            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-              <Button
-                variant="ghost"
-                size="sm"
-                className="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
+            {socialLinks.map(({ icon: Icon, label, href }) => (
+              <motion.div
+                key={label}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
               >
-                <Github className="h-4 w-4" />
-              </Button>
-            </motion.div>
-            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-              <Button
-                variant="ghost"
-                size="sm"
-                className="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
-                onClick={() => handleResumeDownload()}
-              >
-                <Download className="h-4 w-4" />
-              </Button>
-            </motion.div>
-            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-              <Button
-                variant="ghost"
-                size="sm"
-                className="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
-              >
-                <Mail className="h-4 w-4" />
-              </Button>
-            </motion.div>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
+                  asChild
+                >
+                  <a
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={label}
+                  >
+                    <Icon className="h-4 w-4" />
+                  </a>
+                </Button>
+              </motion.div>
+            ))}
           </motion.div>
         </div>
       </div>

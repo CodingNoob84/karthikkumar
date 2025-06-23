@@ -19,17 +19,19 @@ export function SuccessMessage({ show, onComplete }: SuccessMessageProps) {
     const interval = setInterval(() => {
       setProgress((prev) => {
         const next = prev - 2;
-        if (next <= 0) {
-          clearInterval(interval);
-          onComplete?.();
-          return 0;
-        }
-        return next;
+        return next <= 0 ? 0 : next;
       });
     }, 100);
 
     return () => clearInterval(interval);
-  }, [show, onComplete]);
+  }, [show]);
+
+  // ✅ This effect runs when progress hits 0
+  useEffect(() => {
+    if (progress === 0) {
+      onComplete?.();
+    }
+  }, [progress, onComplete]);
 
   return (
     <div className="flex flex-col items-center justify-center h-full min-h-[600px] p-8 animate-in fade-in-50 slide-in-from-bottom-4 duration-700">

@@ -55,7 +55,7 @@ export const ContactSection = () => {
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <Button
               size="lg"
-              className="border-white text-slate-900 dark:text-white hover:bg-white hover:text-slate-900 transition-colors duration-300 dark:border-slate-600 dark:hover:bg-slate-100 dark:hover:text-slate-900"
+              className="bg-white text-slate-900 hover:bg-slate-100 shadow-md dark:shadow-none"
               onClick={handleResumeDownload}
             >
               <Download className="mr-2 h-4 w-4" />

@@ -47,7 +47,7 @@ export default function ContactPage() {
             >
               <SuccessMessage
                 show={showSuccess}
-                onComplete={handleSuccessComplete}
+                onComplete={() => handleSuccessComplete()}
               />
             </div>
 
